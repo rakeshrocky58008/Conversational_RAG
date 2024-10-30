@@ -1,0 +1,13 @@
+prefix=/Users/rakesh/GENAI/projects/RAG_Conversational/venv
+exec_prefix=/Users/rakesh/GENAI/projects/RAG_Conversational/venv
+libdir=/Users/rakesh/GENAI/projects/RAG_Conversational/venv/lib
+sharedlibdir=/Users/rakesh/GENAI/projects/RAG_Conversational/venv/lib
+includedir=/Users/rakesh/GENAI/projects/RAG_Conversational/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
